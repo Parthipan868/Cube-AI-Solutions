@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
-import heroImage from '../assets/ai-professional.png';
+import heroImage from '../assets/ai-searching.jpg';
 import './Hero.css';
 
 const Hero = () => {
