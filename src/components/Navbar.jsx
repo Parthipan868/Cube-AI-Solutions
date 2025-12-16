@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Logo from '../assets/Logo.jpg';
+import Logo from '../assets/logo.jpg';
 import './Navbar.css';
 
 const Navbar = () => {
