@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background Elements -->
+  <rect x="50" y="50" width="400" height="300" rx="20" fill="#f8fafc" />
+  
+  <!-- Abstract Circuit / Brain Pattern -->
+  <g transform="translate(250, 200)" opacity="0.1">
+    <circle r="120" fill="url(#aiGradient)" />
+  </g>
+
+  <!-- Central Chip -->
+  <rect x="210" y="160" width="80" height="80" rx="10" fill="white" stroke="url(#aiGradient)" stroke-width="2" filter="url(#shadow)" />
+  <rect x="225" y="175" width="50" height="50" rx="4" fill="url(#aiGradient)" />
+  
+  <!-- Circuit Lines Connecting to Chip -->
+  <g stroke="url(#aiGradient)" stroke-width="3" stroke-linecap="round" fill="none">
+    <!-- Top Connections -->
+    <path d="M250 160 L250 100" />
+    <path d="M230 160 L230 120 L200 100" />
+    <path d="M270 160 L270 120 L300 100" />
+    
+    <!-- Bottom Connections -->
+    <path d="M250 240 L250 300" />
+    <path d="M230 240 L230 280 L200 300" />
+    <path d="M270 240 L270 280 L300 300" />
+    
+    <!-- Left Connections -->
+    <path d="M210 200 L150 200" />
+    <path d="M210 180 L170 180 L150 150" />
+    <path d="M210 220 L170 220 L150 250" />
+    
+    <!-- Right Connections -->
+    <path d="M290 200 L350 200" />
+    <path d="M290 180 L330 180 L350 150" />
+    <path d="M290 220 L330 220 L350 250" />
+  </g>
+
+  <!-- Nodes -->
+  <g fill="white" stroke="url(#aiGradient)" stroke-width="2">
+    <circle cx="250" cy="100" r="6" />
+    <circle cx="200" cy="100" r="6" />
+    <circle cx="300" cy="100" r="6" />
+    
+    <circle cx="250" cy="300" r="6" />
+    <circle cx="200" cy="300" r="6" />
+    <circle cx="300" cy="300" r="6" />
+    
+    <circle cx="150" cy="200" r="6" />
+    <circle cx="150" cy="150" r="6" />
+    <circle cx="150" cy="250" r="6" />
+    
+    <circle cx="350" cy="200" r="6" />
+    <circle cx="350" cy="150" r="6" />
+    <circle cx="350" cy="250" r="6" />
+  </g>
+
+</svg>

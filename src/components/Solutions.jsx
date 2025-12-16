@@ -6,7 +6,7 @@ import {
     FaShieldAlt,
     FaUsers,
 } from 'react-icons/fa';
-import teamImage from '../assets/Image 2.jpg';
+
 import './Solutions.css';
 
 const Solutions = () => {
